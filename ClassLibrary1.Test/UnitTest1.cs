@@ -7,13 +7,6 @@ namespace ClassLibrary1.Test
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
-        {
-            var c = new Class1();
-            Assert.AreEqual(42, c.Method());
-        }
-
-        [TestMethod]
         [DeploymentItem("TextFile1.txt")]
         public void Failing1()
         {
